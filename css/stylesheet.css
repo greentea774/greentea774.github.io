@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+
+.clear{
+    clear:left;
+}
+
+.top_message{
+    text-align: center;
+}
+
+.contents{
+    width:100%;
+    padding:0 5%;
+    margin: 0 auto;
+}
+.contents_wrapper{
+    width:80%;
+    padding:0,5%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.items{
+    padding:10px;
+    float: left;
+    width:20%;
+    text-align: center;
+    background-color:#f7f7f7;
+}
+
+.bottom_message{
+    padding:1%;
+    border-bottom: 1px solid #f7f7f7;
+}
+footer{
+    padding-top:1%;
+    text-align: center;
+}
