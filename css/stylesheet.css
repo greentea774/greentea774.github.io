@@ -23,17 +23,50 @@
 }
 
 .items{
-    padding:10px;
-    float: left;
-    width:20%;
-    text-align: center;
+    padding: 10px 0px;
+    margin: 0 1%;
+    width:18%;
     background-color:#f7f7f7;
+    text-align: center;
+    float: left;
 }
 
-.bottom_message{
+.bottom_messages{
+    padding:1%;
+    text-align: center;
+}
+
+.bottom_message_twitter{
+    color:gray;
+    display:none;
+}
+
+.bottom_message_github{
+    color:gray;
+    display:none;
+}
+
+.bottom_message_myprofile{
+    color:gray;
+    display:none;
+}
+
+.bottom_message_product{
+    color:gray;
+    display:none;
+}
+
+.bottom_message_blog{
+    color:gray;
+    display:none;
+}
+
+.bottom_border{
     padding:1%;
     border-bottom: 1px solid #f7f7f7;
+    text-align: center;
 }
+
 footer{
     padding-top:1%;
     text-align: center;
