@@ -3,7 +3,7 @@
 $("#items_twitter").hover(
     function(){
         /* mouse enter の処理 */
-        $('.bottom_message_twitter').fadeIn();
+        $('.bottom_message_twitter').css('display','block');
     }, 
     function(){
         /* mouse leave の処理 */
@@ -14,7 +14,7 @@ $("#items_twitter").hover(
 $("#items_github").hover(
     function(){
         /* mouse enter の処理 */
-        $('.bottom_message_github').fadeIn();
+        $('.bottom_message_github').css('display','block');
     }, 
     function(){
         /* mouse leave の処理 */
@@ -25,7 +25,7 @@ $("#items_github").hover(
 $("#items_myprofile").hover(
     function(){
         /* mouse enter の処理 */
-        $('.bottom_message_myprofile').fadeIn();
+        $('.bottom_message_myprofile').css('display','block');
     }, 
     function(){
         /* mouse leave の処理 */
@@ -36,7 +36,7 @@ $("#items_myprofile").hover(
 $("#items_product").hover(
     function(){
         /* mouse enter の処理 */
-        $('.bottom_message_product').fadeIn();
+        $('.bottom_message_product').css('display','block');
     }, 
     function(){
         /* mouse leave の処理 */
@@ -47,7 +47,7 @@ $("#items_product").hover(
 $("#items_blog").hover(
     function(){
         /* mouse enter の処理 */
-        $('.bottom_message_blog').fadeIn();
+        $('.bottom_message_blog').css('display','block');
     }, 
     function(){
         /* mouse leave の処理 */
