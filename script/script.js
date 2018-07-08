@@ -1,3 +1,13 @@
+//準備中ページクリック時、Sorryポップアップを表示する
+$('.Sorry').click(function(){
+    $('#Sorry-modal').fadeIn();
+});
+
+//Sorryポップアップのバツアイコンクリック時、ポップアップを消す
+$('.close-modal').click(function(){
+    $('#Sorry-modal').fadeOut();
+});
+
 // 各リンク先のマウスオン時bottom_messageを表示する
 // Twitter
 $("#items_twitter").hover(
