@@ -85,6 +85,12 @@
     border-radius: 10px;
 }
 
+a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 .bottom_messages{
     padding:1%;
     text-align: center;
