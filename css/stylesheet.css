@@ -152,9 +152,40 @@ color: rgb(49, 49, 49);
 font-size: small;
 }
 
-.Product {
+.Products {
 margin-top:-65px;
 padding-top: 65px;
+margin: auto;
+}
+
+.product {
+width: 100%;
+background-color: rgba(222, 247, 230, 0.9);
+border-radius: 10px;
+}
+
+.product h3 {
+padding-top: 2%;
+text-align: center;
+color: rgb(49, 49, 49);
+}
+
+.product img {
+float: left;
+width: 29%;
+margin:2%;
+border-radius: 10px;
+}
+.product i {
+text-align: center;
+margin: auto;
+position: relative;
+}
+
+.product p {
+color: rgb(49, 49, 49);
+font-size: small;
+padding-bottom: 2%;
 }
 
 footer {
